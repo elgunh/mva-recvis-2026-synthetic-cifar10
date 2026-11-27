@@ -1,0 +1,2 @@
+# Extra dependency for selected-member downloads; encoders reuse their existing environments.
+remotezip==0.12.6

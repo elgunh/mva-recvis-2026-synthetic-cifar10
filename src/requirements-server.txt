@@ -1,0 +1,13 @@
+# Reproducible server environment: Python 3.8.10, Linux, CUDA 12.1 wheels.
+--extra-index-url https://download.pytorch.org/whl/cu121
+numpy==1.24.4
+pandas==2.0.3
+pillow==10.4.0
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+open-clip-torch==2.24.0
+timm==0.9.16
+huggingface_hub==0.23.5
+safetensors==0.4.5
+transformers==4.44.2
+tokenizers==0.19.1

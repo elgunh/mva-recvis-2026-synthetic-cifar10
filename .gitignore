@@ -1,0 +1,29 @@
+# data, weights and run outputs stay out of the repository
+data/
+runs/
+logs/
+models/
+external_data/
+*.npz
+*.pt
+*.pth
+*.safetensors
+__pycache__/
+*.pyc
+# LaTeX build files
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.brf
+report/*.log
+report/*.out
+# personal notes and local tools are never part of this repository
+EXPERIMENTS.md
+*_PLAN*.md
+*HANDOFF*.md
+AGENTS.md
+CLAUDE.md
+.claude/
+*.ps1
+kaggle_mcp.py
+submission_ledger.json
